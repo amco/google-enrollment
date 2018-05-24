@@ -11,7 +11,7 @@ This are the scripts that we use to enroll chromebooks from Rubber Ducky
 - 2 minutes
 
 ### On any computer
-* Download the script.
+* Open the script from Encoder folder.
 * Edit the text and replace the SSID and wireless password, account and account password to enroll.
 * Compiling the with the Jar or [Web Tool Script]((https://ducktoolkit.com/encoder/)) to a binary file.
 * Open the Rubber ducky and save the script in SD card form inside, once saved the script, reclosing the USB.
@@ -30,7 +30,7 @@ The Rubber Ducky is a USB device that simulates a keyboard and executes a sequen
 - **EnrollmentEmail@domain.com_:** Email administrator or user with privileges for enrollment:
 - **_EnrollmentEmail_Password_email:** password 
 
-#### Compile
+### Compile
 To compile the binary file just run this from encoder folder: 
 ```sh
 $ java -jar encoder.jar -l resources/us.properties -i script.txt -o inject.bin
