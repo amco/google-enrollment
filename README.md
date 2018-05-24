@@ -37,9 +37,9 @@ $ java -jar encoder.jar -l resources/us.properties -i script.txt -o inject.bin
 ```
 
 Where:
-**us.properties** is the config for keyboard (US)
-**script.txt** is input file
-**inject.bin** is outpu file
+- **us.properties** is the config for keyboard (US)
+- **script.txt** is input file
+- **inject.bin** is outpu file
 
 **OR**
 You can use [Web App Compiler](https://ducktoolkit.com/encoder/)
